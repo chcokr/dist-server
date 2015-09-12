@@ -1,0 +1,29 @@
+{
+  "name": "dist-server",
+  "version": "0.0.0",
+  "description": "Launch a static server that will make Chrome's audits less cranky.",
+  "bin": "./bin.js",
+  "dependencies": {
+    "compression": "^1.5.2",
+    "express": "^4.13.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chcokr/dist-server.git"
+  },
+  "keywords": [
+    "server",
+    "express",
+    "dist",
+    "production"
+  ],
+  "author": "YJ Yang <chcokr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chcokr/dist-server/issues"
+  },
+  "homepage": "https://github.com/chcokr/dist-server#readme"
+}
